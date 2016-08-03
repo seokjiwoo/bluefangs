@@ -1,0 +1,56 @@
+.flexslider{position:relative;}
+.flexslider ul li a{position:relative;display:block;}
+.flexslider ul li a span{position:absolute;left:0;top:80%;width:100%;height:16px;display:block;text-align:center;color:#fff;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;word-wrap:normal;}
+.flexslider .flex-control-nav{width:100%;position:absolute;top:90%;overflow:hidden;text-align:center;}
+.flexslider .flex-control-nav li{display:inline-block;}
+.flexslider .flex-control-nav li a{width:8px;height:8px;margin:0 4px;background:#aaa;border:2px solid #fff;border-radius:8px;display:block;text-indent:-99999em;}
+.flexslider .flex-control-nav li a.flex-active{width:16px;background:#ff9c00;}
+.flexslider ul li a img{width:100%;}
+
+/*.gameZone:after{content:"";display:block;clear:both;}
+.gameZone > div{width:50%;float:left;height:120px;}
+.gameZone > div:first-child{background:#002559;}
+.gameZone > div:nth-child(2){background:#0c4da2;}
+.gameZone > div > strong{margin-top:12px;display:block;text-transform:uppercase;text-decoration:underline;text-align:center;font-weight:normal;}
+.gameZone > div > p{margin-top:10px;text-align:center;}
+.gameZone div.team{position:relative;height:50px;margin-top:5px;text-align:center;}
+.gameZone div.team > div img{width:39px;;}
+.gameZone div.team > div span{display:block;margin-top:5px;font-size:10px;}
+.gameZone div.team span.score{display:block;padding-top:14px;color:#ffd534;font-size:15px;}
+.gameZone div.team .lt,
+.gameZone div.team .rt{position:absolute;top:0;}
+.gameZone div.team .lt{left:8px;}
+.gameZone div.team .rt{right:8px;}
+.gameZone > div.lastGame strong,
+.gameZone > div.lastGame p{color:#b3bece;}
+.gameZone > div.lastGame div.team > div span{color:#b3bece;}
+.gameZone > div.nextGame strong,
+.gameZone > div.nextGame p{color:#fff;}
+.gameZone > div.nextGame div.team > div span{color:#b3bece;}
+
+.tables01 table{font-size:12px;}
+.tables01 table thead tr th{padding:8px 0;font-weight:normal;border-bottom:1px solid #e5e5e5;color:#004980;}
+.tables01 table tbody tr td{padding:6px 0;text-align:center;}
+.tables01 table tbody tr.on td{font-family:"nanumbd";color:#0070d8;}*/
+
+.eventbnr a{display:block;}
+.eventbnr a img{width:100%;}
+
+.mconbox ul{width:100%;display:table;}
+.mconbox ul li{position:relative;width:50%;display:table-cell;vertical-align:top;}
+.mconbox ul li a{display:block;}
+.mconbox ul li a img{width:100%;}
+.mconbox ul li.photo:before,
+.mconbox ul li.movie:before{content:"";position:absolute;left:0;top:0;width:25px;height:25px;display:block;}
+.mconbox ul li.photo:before{background:#24a2d1 url("../../images/icon/icon_photo.png") no-repeat center center;background-size:14px;}
+.mconbox ul li.movie:before{background:#ff8000 url("../../images/icon/icon_tv.png") no-repeat center center;background-size:14px;}
+.mconbox .textLink01 a,
+.mconbox .textLink02 a{padding:20px 0 0 20px;font-size:14px;}
+.mconbox .textLink01 span,
+.mconbox .textLink02 span{display:block;line-height:18px;}
+.mconbox .textLink01:after,
+.mconbox .textLink02:after{content:"";position:absolute;right:15px;bottom:15px;width:22px;height:22px;display:block;border:1px solid #a1a1a1;border-radius:12px;background:url("../../images/icon/icon_arr.png") no-repeat center center;background-size:7px;}
+.mconbox .textLink01 strong{display:block;color:#1a57a7;font-weight:normal;font-family:"nanumbd";}
+.mconbox .textLink01 span{margin-top:14px;}
+.mconbox .textLink02{background:#1a57a7;}
+.mconbox .textLink02 span{color:#fff;}
